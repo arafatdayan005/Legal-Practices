@@ -27,6 +27,20 @@
             .font-p{
                 font-family: 'EB Garamond', serif;
             }
+            .banner{
+                background: url(images/Rectangle\ 4.png);
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                height: calc(100vh - 73px);
+            }
+            .overlay{
+                background: url(images/Rectangle\ 5.png);
+                background-attachment: fixed;
+                background-size: cover;
+                height: calc(100vh - 73px);
+            }
     </style>
 </head>
 <body>
@@ -91,6 +105,18 @@
             </div>
         </nav>
         <!-- Navbar End -->
+        <!-- Banner Start -->
+        <div class="banner text-center text-white">
+            <div class="overlay d-flex flex-column justify-content-center align-items-center">
+                <h1 class="font-p display-3 mb-4">We Provide Effective <br> Legal Solutions</h1>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority <br> have suffered alteration in some form, by injected humour.</p>
+                <div class="row d-flex col-md-12 justify-content-center">
+                    <input type="text" class="p-3 rounded-3 mt-4 col-10 col-md-4" placeholder="Serach your services">
+                    <button class="btn btn-brown text-white ms-4 px-4 fw-bold fs-5 mt-4 col-4 col-md-1">Search</button>
+                </div>         
+            </div>          
+        </div>
+        <!-- Banner End -->
     </header>
 
     <!-- Js Script -->
