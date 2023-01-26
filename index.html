@@ -44,6 +44,24 @@
             .services-card:hover{
                 background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%);
             }
+            .carousel-img-1{
+                background-image: url(images/judges-gavel-scale-justice-black-table.jpg); 
+                background-size: cover;
+            }
+            .carousel-img-2{
+                background-image: url(images/lady-justice-law-library-concept.jpg);
+                background-size: cover;
+            }
+            .carousel-img-3{
+                background-image: url(images/law-justice-concept-dark-background.jpg);
+                background-size: cover;
+            }
+            .carousel-overlay{
+                background: url(images/Rectangle\ 7.png); height: 80vh;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
     </style>
 </head>
 <body>
@@ -166,6 +184,54 @@
                     <img src="images/Frame.png" alt="" class="pb-5 pt-4">
                 </div>
             </div>
+        </section>
+        <!-- Our Client Section -->
+        <section class="container my-5 py-5">
+            <h1 class="font-p text-center">What Our Client Say</h1>
+            <p class="text-center text-secondary my-4 pb-4">There are many variations of passages of Lorem Ipsum available, but the majority have <br> suffered alteration in some form, by injected humour.</p>
+            <!-- Carousel start -->
+            <div id="carouselExampleIndicators" class="carousel slide mt-5">
+                <div class="carousel-indicators mb-5 pb-4">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="active" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner rounded-3" style="height: 80vh;">
+                  <div class="carousel-item carousel-img-1">
+                    <div class="carousel-overlay text-white text-center d-flex flex-column justify-content-center align-items-center">
+                        <img src="images/man.png" alt="">
+                        <h3 class="font-p mt-4">Awlad Hossain</h3>
+                        <p class="mb-4">UI/UX Designer</p>
+                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin <br> literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney <br> College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item active carousel-img-2">
+                    <div class="carousel-overlay text-white text-center d-flex flex-column justify-content-center align-items-center">
+                        <img src="images/man.png" alt="">
+                        <h3 class="font-p mt-4">Awlad Hossain</h3>
+                        <p class="mb-4">UI/UX Designer</p>
+                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin <br> literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney <br> College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item carousel-img-3">
+                    <div class="carousel-overlay text-white text-center d-flex flex-column justify-content-center align-items-center">
+                        <img src="images/man.png" alt="">
+                        <h3 class="font-p mt-4">Awlad Hossain</h3>
+                        <p class="mb-4">UI/UX Designer</p>
+                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin <br> literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney <br> College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <!-- Carousel End -->
         </section>
     </main>
 
